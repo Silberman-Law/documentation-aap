@@ -29,6 +29,7 @@ pie
 ---
 title: Animal example
 ---
+```mermaid
 classDiagram
     note "From Duck till Zebra"
     Animal <|-- Duck
@@ -52,3 +53,4 @@ classDiagram
         +bool is_wild
         +run()
     }
+```
