@@ -1,4 +1,11 @@
 ```mermaid
+classDiagram
+    class User {
+        +String username
+    }
+```
+
+```mermaid
 ---
 title: Animal example
 ---
