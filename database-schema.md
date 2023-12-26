@@ -1,7 +1,13 @@
 ```mermaid
 classDiagram
+    Person <|-- User
     class User {
         +String username
+    }
+    class Person {
+        +String firstname
+        +String lastname
+        +String email
     }
 ```
 
