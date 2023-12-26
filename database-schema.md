@@ -1,4 +1,7 @@
 ```mermaid
+---
+title: AAP Database Schema
+---
 classDiagram
     Person <|-- User
     Role --|> Person
