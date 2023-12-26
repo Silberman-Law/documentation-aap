@@ -54,3 +54,8 @@ classDiagram
         +run()
     }
 ```
+
+```mermaid
+flowchart LR
+  A[Capture] --> B(Document) --> C{{Review and<br/>Approve}} --> D(Publish) --> E((( )))
+```
