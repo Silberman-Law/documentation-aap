@@ -2,6 +2,7 @@
 classDiagram
     Person <|-- User
     class User {
+        +int id
         +String username
     }
     class Person {
